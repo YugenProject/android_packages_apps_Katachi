@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 The Yugen Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Dashboard entry -->
+    <string name="yugen_qs_panel_title">Quick Settings style</string>
+    <string name="yugen_qs_panel_summary">Panel layout, tiles and Liquid Glass</string>
+    <string name="yugen_settings_category_title">Yugen</string>
+    <string name="yugen_qs_panel_keywords">quick settings, qs, tiles, panel, shade, liquid glass, glass</string>
+
+    <!-- Quick Settings panel -->
+    <string name="yugen_qs_shade_category_title">Quick Settings</string>
+    <string name="yugen_qs_panel_style_title">Panel style</string>
+    <string name="yugen_qs_panel_style_summary">How the Quick Settings panel and its tiles are drawn</string>
+
+    <string-array name="yugen_qs_panel_style_entries">
+        <item>Default (LineageOS)</item>
+        <item>Yugen</item>
+        <item>MyUI</item>
+        <item>Harmony</item>
+    </string-array>
+
+    <string-array name="yugen_qs_panel_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="yugen_qs_oneui_title">OneUI experimental layout</string>
+    <string name="yugen_qs_oneui_summary">Draw the toggles like OneUI instead of the selected panel style</string>
+
+    <string name="yugen_qs_folder_title">Connectivity folder</string>
+    <string name="yugen_qs_folder_summary">Show the connectivity tiles in one folder at the top of the panel</string>
+
+    <!-- Liquid Glass -->
+    <string name="yugen_liquid_glass_category_title">Liquid Glass</string>
+    <string name="yugen_liquid_glass_title">Liquid Glass</string>
+    <string name="yugen_liquid_glass_summary">Translucent glass surfaces for the shade, Quick Settings and notifications</string>
+
+    <string name="yugen_liquid_glass_style_title">Glass style</string>
+    <string name="yugen_liquid_glass_style_rimmed">Rimmed</string>
+    <string name="yugen_liquid_glass_style_frosted">Frosted</string>
+
+    <string-array name="yugen_liquid_glass_style_entries">
+        <item>@string/yugen_liquid_glass_style_rimmed</item>
+        <item>@string/yugen_liquid_glass_style_frosted</item>
+    </string-array>
+
+    <string-array name="yugen_liquid_glass_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="yugen_glass_tab_bars_title">Glass app tab bars</string>
+    <string name="yugen_glass_tab_bars_summary">Frost the bottom navigation bars of running apps. Reopen an app to apply.</string>
+</resources>
